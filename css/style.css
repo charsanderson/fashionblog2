@@ -52,7 +52,6 @@ nav{
 
 
 nav ul {
-    clear:both;
     font-family: 'Lato', sans-serif;
     list-style-type: none;
     text-decoration: none;
@@ -160,6 +159,71 @@ footer a{
 
 }
 
+
+@media only screen and (min-width:1020px){
+    
+    main{
+            width: 70%;
+        }
+
+    header h1{
+        float: left;
+    }
+
+
+    header h2{
+        padding-left: 1.25em;
+        float: left;
+        line-height: 2.85em;
+    }
+
+  
+
+    nav ul {
+        clear:both;
+        width: 100%;
+    }
+
+    nav ul li{
+        float: left;
+
+    }
+
+    nav ul li a {
+        text-decoration: none;
+        padding: .5em 1.5em;
+        color: #fff;
+        background-color: #000;
+    }
+
+    nav ul li a:hover
+    {
+        color: #fff;
+        background-color: #444;
+    }
+
+
+    aside{
+        width:30%;
+        margin-top: 50px;
+        padding-left: 50px;
+    }
+
+    aside section{
+        padding-bottom: 50px;
+    }
+
+    main, aside, section {
+        float:left;
+
+    }
+
+    footer{
+        clear:both;
+    }
+}
+
+
 .clearfix:after {
      content: ".";
      display: block;
@@ -197,68 +261,6 @@ a:active {
     text-decoration: none;
 }
 
-
-@media only screen and (min-width:1020px){
-    
-    main{
-            width: 70%;
-        }
-
-    header h1{
-        float: left;
-    }
-
-
-    header h2{
-        padding-left: 1.25em;
-        float: left;
-        line-height: 2.85em;
-    }
-
-    nav{
-        width: 100%;
-    }
-
-    nav ul li{
-        float: left;
-        color: white;
-
-
-    }
-
-    nav ul li a {
-        text-decoration: none;
-        padding: .5em 1.5em;
-        color: #fff;
-        background-color: #000;
-    }
-
-    nav ul li a:hover
-    {
-        color: #fff;
-        background-color: #444;
-    }
-
-
-    aside{
-        width:30%;
-        margin-top: 50px;
-        padding-left: 50px;
-    }
-
-    aside section{
-        padding-bottom: 50px;
-    }
-
-    main, aside, section {
-        float:left;
-
-    }
-
-    footer{
-        clear:both;
-    }
-}
 
 
 
