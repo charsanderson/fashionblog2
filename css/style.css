@@ -1,0 +1,268 @@
+/* 
+Project Name: Blank Template
+Client: Your Client
+Author: Your Name
+Developer @GA in NYC
+*/
+
+
+/******************************************
+/* SETUP                   
+/*******************************************/
+
+/* Box Model Hack */
+@import url(http://fonts.googleapis.com/css?family=Lato:300,300italic);
+
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+/* Clear fix hack */
+
+
+/******************************************
+/* BASE STYLES                   
+/*******************************************/
+
+
+body {
+    width:100%;     
+    padding: 3em;
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+    background: #FFF;
+    color: #444;
+
+    
+}
+
+header{
+    width: 100%;
+    margin-bottom: 25px;
+
+}
+
+nav{
+    width:30%;
+    display: inline;
+}
+
+
+nav ul {
+    clear:both;
+    font-family: 'Lato', sans-serif;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+
+main {
+    width:100%;
+}
+
+
+article{
+
+    padding-bottom: 50px;
+    
+    }
+
+section ul { 
+
+    font-color: red;
+
+    }
+
+
+img {
+     width: 100%;
+
+}
+
+
+
+h1 a{  
+    font-family: 'Lato', sans-serif;
+    font-size: 1.6em;
+    letter-spacing: 2px;
+    text-decoration: none;
+    line-height: -25px;
+    color: #D00;
+}
+
+h2 {
+     font-family: 'Lato', sans-serif;
+     color:#444;
+     letter-spacing: 2px;
+    
+}
+
+
+
+article h2 a{
+     font-family: 'Lato', sans-serif;
+     color:#444;
+
+}
+
+h3 {
+
+     font-family: 'Lato', sans-serif;
+     padding-top: 40px;
+     font-size: 1.5em;
+     color: #BBB;
+    
+}
+
+h4 a{
+     float: right;
+     color:red;
+     padding: 10px;
+
+}
+
+
+h5{
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    color: #444;
+}
+
+
+
+
+article p:first-letter {
+    float: left;
+    font-size: 6em;
+    line-height: 1;
+    color: #DDD;
+    margin: -.1em .1em 0 -.1em;
+}
+
+
+
+
+footer{
+    color:#bdbdbd;
+}
+
+footer a{
+    clear:both;
+    font-family: 'Lato', sans-serif;
+    padding-top: 50px;
+    margin-bottom: 2px;
+    padding-right: 10px;
+    padding-left: 10px;
+    color:  #D00;
+
+}
+
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+    clear: both;
+}
+
+.alignright {
+    float: right; 
+    padding: 0 0 10px 10px; /* note the padding around a right floated image */
+}
+
+.alignleft {
+    float: left; 
+    padding: 0 10px 10px 0; /* note the padding around a left floated image */
+}
+
+a:link {
+    text-decoration: none;
+    
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+
+a:active {
+    text-decoration: none;
+}
+
+
+@media only screen and (min-width:1020px){
+    
+    main{
+            width: 70%;
+        }
+
+    header h1{
+        float: left;
+    }
+
+
+    header h2{
+        padding-left: 1.25em;
+        float: left;
+        line-height: 2.85em;
+    }
+
+    nav{
+        width: 100%;
+    }
+
+    nav ul li{
+        float: left;
+        color: white;
+
+
+    }
+
+    nav ul li a {
+        text-decoration: none;
+        padding: .5em 1.5em;
+        color: #fff;
+        background-color: #000;
+    }
+
+    nav ul li a:hover
+    {
+        color: #fff;
+        background-color: #444;
+    }
+
+
+    aside{
+        width:30%;
+        margin-top: 50px;
+        padding-left: 50px;
+    }
+
+    aside section{
+        padding-bottom: 50px;
+    }
+
+    main, aside, section {
+        float:left;
+
+    }
+
+    footer{
+        clear:both;
+    }
+}
+
+
+
+
+
+
+
